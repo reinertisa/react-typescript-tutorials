@@ -1,10 +1,11 @@
 import './App.css'
-import Greet1 from "./components/Greet1.tsx";
+import Greet2 from "./components/Greet2.tsx";
 
 function App() {
+
   return (
       <div>
-          <Greet1 name="isa" />
+          <Greet2 name="John" messageCount={10} isLoggedIn={true} />
       </div>
   )
 }
