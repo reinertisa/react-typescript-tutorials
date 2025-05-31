@@ -1,11 +1,14 @@
 import './App.css'
-import Greet2 from "./components/Greet2.tsx";
+import Person1 from "./components/Person1.tsx";
 
 function App() {
-
+    const personName = {
+        firstName: 'Isa',
+        lastName: 'Albertion'
+    }
   return (
       <div>
-          <Greet2 name="John" messageCount={10} isLoggedIn={true} />
+          <Person1 name={personName} />
       </div>
   )
 }
