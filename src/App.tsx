@@ -2,6 +2,7 @@ import './App.css'
 import Status2 from "./components/Status2.tsx";
 import Heading1 from "./components/Heading1.tsx";
 import Oscar1 from "./components/Oscar1.tsx";
+import Greet3 from "./components/Greet3.tsx";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Oscar1>
                 <Heading1>Oscar goes to Leonardo Dicaprio</Heading1>
             </Oscar1>
+            <Greet3 name={'isa'} isLoggedIn={true} />
         </div>
     )
 }
