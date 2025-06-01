@@ -1,10 +1,10 @@
 import './App.css'
-import Status1 from "./components/Status1.tsx";
+import Status2 from "./components/Status2.tsx";
 
 function App() {
     return (
         <div>
-            <Status1 status="loading" />
+            <Status2 status="error" />
         </div>
     )
 }
