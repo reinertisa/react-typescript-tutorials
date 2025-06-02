@@ -1,11 +1,11 @@
 import './App.css'
 
-import User1 from "./usestate/User1.tsx";
+import Counter1 from "./usereducer/Counter1.tsx";
 
 function App() {
     return (
         <div>
-           <User1 />
+           <Counter1 />
         </div>
     )
 }
