@@ -1,10 +1,15 @@
 import './App.css'
 
-import Counter2 from "./usereducer/Counter2.tsx";
+import ThemeContextProvider from "./usecontext/ThemeContext1.tsx";
+import Box1 from "./usecontext/Box1.tsx";
 
 function App() {
     return (
-        <div><Counter2 /></div>
+        <div>
+            <ThemeContextProvider>
+                <Box1 />
+            </ThemeContextProvider>
+        </div>
     )
 }
 
