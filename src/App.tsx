@@ -1,10 +1,10 @@
 import './App.css'
-import Input1 from "./components/eventprops/Input1.tsx";
+import Container1 from "./components/styles/Container1.tsx";
 
 function App() {
     return (
         <div>
-            <Input1 value="isa" handleChange={(event) => console.log(event.target.value)} />
+           <Container1 styles={{border: '1px solid black', padding: '1rem'}} />
         </div>
     )
 }
