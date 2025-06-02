@@ -1,12 +1,10 @@
 import './App.css'
-import Button2 from "./components/eventprops/Button2.tsx";
+import Input1 from "./components/eventprops/Input1.tsx";
 
 function App() {
     return (
         <div>
-            <Button2
-                handleClick={(event, id) => console.log('clicked', event, id)}
-            />
+            <Input1 value="isa" handleChange={(event) => console.log(event.target.value)} />
         </div>
     )
 }
