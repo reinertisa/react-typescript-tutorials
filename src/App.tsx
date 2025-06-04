@@ -1,13 +1,13 @@
 import './App.css'
 
-import UserContextProvider from "./usecontext/UserContext1.tsx";
-import User1 from "./usecontext/User1.tsx";
+import UserContextProvider from "./usecontext/UserContext2.tsx";
+import User2 from "./usecontext/User2.tsx";
 
 function App() {
     return (
         <div>
             <UserContextProvider>
-                <User1 />
+                <User2 />
             </UserContextProvider>
         </div>
     )
