@@ -1,14 +1,14 @@
 import './App.css'
 
-import ThemeContextProvider from "./usecontext/ThemeContext1.tsx";
-import Box1 from "./usecontext/Box1.tsx";
+import UserContextProvider from "./usecontext/UserContext1.tsx";
+import User1 from "./usecontext/User1.tsx";
 
 function App() {
     return (
         <div>
-            <ThemeContextProvider>
-                <Box1 />
-            </ThemeContextProvider>
+            <UserContextProvider>
+                <User1 />
+            </UserContextProvider>
         </div>
     )
 }
