@@ -1,28 +1,23 @@
 import './App.css'
-import List3 from "./generics/List3.tsx";
+import List4 from "./generics/List4.tsx";
 
 function App() {
     return (
         <div>
-            <List3
-                items={['Batman', 'Superman', 'Wonder Woman']}
-                onClick={(item) => console.log(item)}
-            />
-            <List3
-                items={[1, 2, 3]}
-                onClick={(item) => console.log(item)}
-            />
-            <List3
+            <List4
                 items={[
                     {
+                        id: 1,
                         first: 'isa',
                         last: 'reinert',
                     },
                     {
+                        id: 2,
                         first: 'sade',
                         last: 'miller'
                     },
                     {
+                        id: 3,
                         first: 'inigo',
                         last: 'fezzik'
                     }
