@@ -1,10 +1,11 @@
 import './App.css'
-import MutableRef1 from "./useref/MutableRef1.tsx";
+import Private1 from "./auth/Private1.tsx";
+import Profile1 from "./auth/Profile1.tsx";
 
 function App() {
     return (
         <div>
-            <MutableRef1 />
+            <Private1 isLoggedIn={true} component={Profile1} />
         </div>
     )
 }
