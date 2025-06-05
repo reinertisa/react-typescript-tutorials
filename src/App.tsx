@@ -1,11 +1,17 @@
 import './App.css'
-import Private1 from "./auth/Private1.tsx";
-import Profile1 from "./auth/Profile1.tsx";
+import List1 from "./generics/List1.tsx";
 
 function App() {
     return (
         <div>
-            <Private1 isLoggedIn={true} component={Profile1} />
+            <List1
+                items={['Batman', 'Superman', 'Wonder Woman']}
+                onClick={(item) => console.log(item)}
+            />
+            <List1
+                items={[1, 2, 3]}
+                onClick={(item) => console.log(item)}
+            />
         </div>
     )
 }
