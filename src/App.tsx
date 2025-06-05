@@ -1,11 +1,10 @@
 import './App.css'
-
-import DomRef1 from "./useref/DomRef1.tsx";
+import MutableRef1 from "./useref/MutableRef1.tsx";
 
 function App() {
     return (
         <div>
-            <DomRef1 />
+            <MutableRef1 />
         </div>
     )
 }
