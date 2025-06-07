@@ -1,12 +1,12 @@
 import './App.css'
-import Heading3 from "./components/Heading3.tsx";
+import Greet6 from "./components/Greet6.tsx";
 
 function App() {
     return (
         <div>
-            <Heading3 status="success" type='10' name={{id: 1, fullName: 'isa reinert'}} isPositive={false}>
-                <div>hey, this is children</div>
-            </Heading3>
+            <Greet6 name="isa" isLoggedIn={true}>
+                <div>this is children</div>
+            </Greet6>
         </div>
     )
 }
