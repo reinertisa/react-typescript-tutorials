@@ -1,10 +1,10 @@
 import './App.css'
-import RandomNumber1 from "./restriction/RandomNumber1.tsx";
+import Greet4 from "./components/Greet4.tsx";
 
 function App() {
     return (
         <div>
-            <RandomNumber1 value={10} isPositive />
+            <Greet4 name="Isa" />
         </div>
     )
 }
