@@ -1,10 +1,12 @@
 import './App.css'
-import Heading2 from "./components/Heading2.tsx";
+import Heading3 from "./components/Heading3.tsx";
 
 function App() {
     return (
         <div>
-            <Heading2>Isa Reinert</Heading2>
+            <Heading3 status="success" type='10' name={{id: 1, fullName: 'isa reinert'}} isPositive={false}>
+                <div>hey, this is children</div>
+            </Heading3>
         </div>
     )
 }
