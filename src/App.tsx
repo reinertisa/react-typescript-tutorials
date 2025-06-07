@@ -1,12 +1,10 @@
 import './App.css'
-import Greet6 from "./components/Greet6.tsx";
+import Button3 from "./components/eventprops/Button3.tsx";
 
 function App() {
     return (
         <div>
-            <Greet6 name="isa" isLoggedIn={true}>
-                <div>this is children</div>
-            </Greet6>
+            <Button3 handleClick={(e) => console.log(e)}>click me</Button3>
         </div>
     )
 }
