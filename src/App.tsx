@@ -1,12 +1,10 @@
 import './App.css'
-import Status3 from "./components/Status3.tsx";
+import Heading2 from "./components/Heading2.tsx";
 
 function App() {
     return (
         <div>
-            <Status3 status='error' />
-            <Status3 status="loading" />
-            <Status3 status="success" />
+            <Heading2>Isa Reinert</Heading2>
         </div>
     )
 }
