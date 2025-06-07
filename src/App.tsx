@@ -1,10 +1,12 @@
 import './App.css'
-import Button3 from "./components/eventprops/Button3.tsx";
+import React from 'react';
+import Button4 from "./components/eventprops/Button4.tsx";
 
 function App() {
+    const handleClick = (e: React.MouseEvent<HTMLButtonElement>, id: number) => console.log(e, id);
     return (
         <div>
-            <Button3 handleClick={(e) => console.log(e)}>click me</Button3>
+            <Button4 handleClick={handleClick}>Click me</Button4>
         </div>
     )
 }
