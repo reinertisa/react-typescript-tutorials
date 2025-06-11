@@ -1,12 +1,17 @@
 import './App.css'
-import Toast1 from "./exclude/Toast1.tsx";
+import CustomInput from "./html/Input1.tsx";
+import CustomButton from "./html/Button1.tsx";
 
 function App() {
 
     return (
         <div>
-            <Toast1 position={'center-bottom'} />
-            <Toast1 position={'center'} />
+            <CustomButton variant='primary' onClick={() => console.log('clicked')}>
+                Custom Button
+            </CustomButton>
+            <CustomInput name="custom" type="text" onChange={() => console.log('changed')}>
+                This is custom input
+            </CustomInput>
         </div>
     )
 }
