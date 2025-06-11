@@ -1,17 +1,15 @@
 import './App.css'
-import CustomInput from "./html/Input1.tsx";
-import CustomButton from "./html/Button1.tsx";
+import Text1 from "./polymorphic/Text1.tsx";
 
 function App() {
 
     return (
         <div>
-            <CustomButton variant='primary' onClick={() => console.log('clicked')}>
-                Custom Button
-            </CustomButton>
-            <CustomInput name="custom" type="text" onChange={() => console.log('changed')}>
-                This is custom input
-            </CustomInput>
+            <Text1 as="h2" size="lg">Heading</Text1>
+            <Text1 as="p" size="md">Paragraph</Text1>
+            <Text1 as="label" htmlFor="someId" size="sm" color="secondary">
+                Label
+            </Text1>
         </div>
     )
 }
