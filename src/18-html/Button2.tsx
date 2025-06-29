@@ -1,12 +1,11 @@
 import React from 'react';
 
-type Button2Props = {
+type CustomButton4Props = {
     variant: 'primary' | 'secondary'
-    text: string
-} & Omit<React.ComponentProps<'button'>, 'children'>
-export default function CustomButton2({variant, text, ...rest}: Button2Props) {
+} & React.ComponentProps<'button'>
 
+export default function CustomButton4({variant, children, ...rest}: CustomButton4Props) {
     return (
-        <button className={`class-with-${variant}`} {...rest}>{text}</button>
+        <button className={`class-with=${variant}`} {...rest}>{children}</button>
     )
 }
